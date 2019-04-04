@@ -23,8 +23,7 @@ Sortie attendue:
 
  */
 
-function keepStarks(names) {
-}
+const keepStarks = names => names.filter(i => i.split(" ")[1] === "Stark");
 
 // Ne pas modifier l'export
 module.exports = keepStarks;

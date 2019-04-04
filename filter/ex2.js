@@ -15,8 +15,7 @@ Exemple d'entrée:
 
  */
 
-function getMultiplesOf(numbers, n) {
-}
+const getMultiplesOf = (numbers, n) => numbers.filter(x => x % n === 0);
 
 // Ne pas modifier l'export
 module.exports = getMultiplesOf;

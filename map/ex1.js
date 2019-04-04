@@ -21,8 +21,7 @@ En sortie: [
 
  */
 
-function getStringsLength(strings) {
-}
+ const getStringsLength = str => str.map(x => `${x} contains ${x.length} characters`);
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,
 // mais alors, il faut alors lancer l'exercice avec node map/ex1

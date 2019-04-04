@@ -42,8 +42,7 @@ En sortie: [
 
  */
 
-function getFoodCategories(foods) {
-}
+const getFoodCategories = foods => foods.map(i => i.isVegetarian === true ? `${i.food} is suitable for vegetarians` : `${i.food} is not suitable for vegetarians`);
 
 
 
